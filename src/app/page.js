@@ -182,7 +182,7 @@ export default function Home() {
             </div>
           </div>
         ) : (
-          /* UPLOAD FORM OR UPLOADING/ERROR STATES */
+         
           <>
             <div className="text-center mb-8 relative">
               <span className="text-xs font-bold tracking-widest text-purple-400 uppercase bg-purple-950/40 px-3 py-1 rounded-full border border-purple-800/30">
