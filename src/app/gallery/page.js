@@ -213,7 +213,7 @@ export default function Gallery() {
                 <div className="relative w-full h-48 rounded-xl overflow-hidden border border-zinc-950 shadow-inner">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img 
-                    src={img.url} 
+                    src={`https://images.weserv.nl/?url=${encodeURIComponent(img.url)}&w=800&q=85&output=webp`} 
                     alt={img.name} 
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
